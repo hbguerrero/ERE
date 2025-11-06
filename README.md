@@ -32,6 +32,8 @@ This repository contains the **source code, ROS 2 nodes, ESP32 firmware, and exp
 ```bash
 cd testes/CSV_ROBOT
 
+cat >> README.md <<'MD'
+
 ## 📸 Field Pictures
 
 <p align="center">
@@ -48,3 +50,4 @@ cd testes/CSV_ROBOT
     <img src="https://img.youtube.com/vi/u4LEPf4ucak/hqdefault.jpg" alt="YouTube demo thumbnail" width="60%"/>
   </a>
 </p>
+MD

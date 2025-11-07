@@ -111,17 +111,26 @@ Yaw error	−2 → +2	rad
 Valid readings	0 → 100	count
 LiDAR left distance	0 → 3	m
 Time window	0 → 300	s
-🤝 Acknowledgments
 
-This work was developed within the Postdoctoral Research Program (BitPointer SAS – Ministry of Science, Technology and Innovation, Colombia), focusing on low-cost agricultural robotics for plantain crops.
 
-Author: H. B. Guerrero
-Institution: BitPointer SAS / Universidad de los Llanos
-Contact: ORCID 0000-0003-4243-4205
+---
 
-🧠 How to Cite
+## 🤝 <span style="font-size:1.4em; font-weight:bold;">Acknowledgments</span>
+
+This work was developed within the **Postdoctoral Research Program (BitPointer SAS – Ministry of Science, Technology and Innovation, Colombia)**, focusing on **low-cost agricultural robotics** for plantain crops.
+
+<p align="center">
+  <span style="font-size:1.3em; font-weight:bold;">Author:</span><br>
+  <b>H. B. Guerrero</b><br>
+  <i>BitPointer SAS / Universidad de los Llanos</i><br>
+  <a href="https://orcid.org/0000-0003-4243-4205" target="_blank"><b>ORCID 0000-0003-4243-4205</b></a>
+</p>
+
+---
+
+## 🧠 <span style="font-size:1.4em; font-weight:bold;">How to Cite</span>
 
 If you use this repository in your research, please cite:
 
-H. B. Guerrero, Reactive Fuzzy Row-Following Robot for Plantain Crops, 2025.
-GitHub Repository
+> <b>H. B. Guerrero</b>, <i>Reactive Fuzzy Row-Following Robot for Plantain Crops</i>, 2025.  
+> [GitHub Repository](https://github.com/hbguerrero/PosDoc/tree/main/seguidor-de-muro-ros2)

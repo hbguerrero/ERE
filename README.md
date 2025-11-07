@@ -56,35 +56,40 @@ List available experiment folders:
 ls
 ```
 
+
 3️⃣ Edit the configuration
 ```bash
 Open the script:
-
+```
 nano plotar.py
 
 
 Find the line near the top:
 
+```bash
 DATA_SUBFOLDER = "PruebaCampo2-cono160-setpoint1metro-distanciacultivo1metro"
+```
 
 
 Replace the text inside the quotes with the name of the folder you want to plot, for example:
 
-DATA_SUBFOLDER = "prueba1_parque"
+```bash
 
+DATA_SUBFOLDER = "prueba1_parque"
+```
 
 Save and exit Nano:
 
 Press Ctrl + O, then Enter
 
 Press Ctrl + X to close
-```
+
 
 
 4️⃣ Run the plotting script
 ```bash
 python3 plotar.py
-
+```
 
 All generated plots (.png) will be saved inside the same experiment folder you selected.
 
@@ -120,6 +125,3 @@ If you use this repository in your research, please cite:
 
 H. B. Guerrero, Reactive Fuzzy Row-Following Robot for Plantain Crops, 2025.
 GitHub Repository
-
-```
-

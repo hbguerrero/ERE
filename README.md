@@ -45,7 +45,7 @@ Follow these steps to generate plots from your experimental CSV data.
 ### 1️⃣ Go to the plotting script folder
 ```bash
 cd testes/CSV_ROBOT
-
+```
 ### 2️⃣ Select an experiment folder
 
 Each experiment folder inside `testes/CSV_ROBOT/` contains its own CSV dataset.  
@@ -54,9 +54,10 @@ The script `plotar.py` plots **only one experiment at a time**, based on the fol
 List available experiment folders:
 ```bash
 ls
+```
 
 3️⃣ Edit the configuration
-
+```bash
 Open the script:
 
 nano plotar.py
@@ -77,8 +78,11 @@ Save and exit Nano:
 Press Ctrl + O, then Enter
 
 Press Ctrl + X to close
+```
+
 
 4️⃣ Run the plotting script
+```bash
 python3 plotar.py
 
 

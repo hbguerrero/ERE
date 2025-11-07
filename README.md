@@ -39,7 +39,7 @@ This repository contains the **source code, ROS 2 nodes, ESP32 firmware, and exp
 1) Go to the plotting script folder:
 ```bash
 cd testes/CSV_ROBOT
-
+```
 ## Using `plotar.py` (step-by-step guide)
 
 `plotar.py` creates the plots from your experiment data in a chosen folder.
@@ -49,7 +49,7 @@ Only once, install Python packages:
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install numpy pandas matplotlib
-
+```
 ---
 
 ## 🧩 Selecting a Different Experiment Folder (for `plotar.py`)
@@ -62,4 +62,4 @@ To change which dataset is plotted, follow these steps:
 1️⃣ **Open a terminal and go to the script folder**
 ```bash
 cd testes/CSV_ROBOT
-
+```

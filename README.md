@@ -45,3 +45,77 @@ Follow these steps to generate plots from your experimental CSV data.
 ### 1️⃣ Go to the plotting script folder
 ```bash
 cd testes/CSV_ROBOT
+
+### 2️⃣ Select an experiment folder
+
+Each experiment folder inside `testes/CSV_ROBOT/` contains its own CSV dataset.  
+The script `plotar.py` plots **only one experiment at a time**, based on the folder name defined in its configuration.
+
+List available experiment folders:
+```bash
+ls
+
+3️⃣ Edit the configuration
+
+Open the script:
+
+nano plotar.py
+
+
+Find the line near the top:
+
+DATA_SUBFOLDER = "PruebaCampo2-cono160-setpoint1metro-distanciacultivo1metro"
+
+
+Replace the text inside the quotes with the name of the folder you want to plot, for example:
+
+DATA_SUBFOLDER = "prueba1_parque"
+
+
+Save and exit Nano:
+
+Press Ctrl + O, then Enter
+
+Press Ctrl + X to close
+
+4️⃣ Run the plotting script
+python3 plotar.py
+
+
+All generated plots (.png) will be saved inside the same experiment folder you selected.
+
+Example:
+
+testes/CSV_ROBOT/prueba1_parque/
+ ├─ Distance_Error.png
+ ├─ IMU_Yaw_Error.png
+ ├─ Lidar_Left.png
+ ├─ Valid_Readings.png
+ ├─ comparison_desired_vs_measured_left.png
+ └─ comparison_desired_vs_measured_right.png
+
+📊 Default Plot Ranges
+Variable	Range	Units
+Desired vs. Measured velocity	0 → 6.28	rad/s
+Distance error	−1 → +1	m
+Yaw error	−2 → +2	rad
+Valid readings	0 → 100	count
+LiDAR left distance	0 → 3	m
+Time window	0 → 300	s
+🤝 Acknowledgments
+
+This work was developed within the Postdoctoral Research Program (BitPointer SAS – Ministry of Science, Technology and Innovation, Colombia), focusing on low-cost agricultural robotics for plantain crops.
+
+Author: H. B. Guerrero
+Institution: BitPointer SAS / Universidad de los Llanos
+Contact: ORCID 0000-0003-4243-4205
+
+🧠 How to Cite
+
+If you use this repository in your research, please cite:
+
+H. B. Guerrero, Reactive Fuzzy Row-Following Robot for Plantain Crops, 2025.
+GitHub Repository
+
+```
+
